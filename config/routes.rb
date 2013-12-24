@@ -1,9 +1,7 @@
 Business::Application.routes.draw do
-  get "home/index"
-
-  get "home/about"
 
  get "/home" => 'home#index', as: :home
+ get "/services" => 'home#services', as: :services
  get "/about" => 'home#about', as: :about
 
 

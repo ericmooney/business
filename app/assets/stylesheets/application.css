@@ -12,3 +12,8 @@
 
  *= require_tree .
  */
+
+.orbit-container ul li {
+  max-height: 320px;
+  overflow: hidden;
+}

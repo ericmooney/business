@@ -1,0 +1,23 @@
+<div class="contain-to-grid">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <!-- <h1><a href="#">Home</a></h1> -->
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <!-- <ul class="left">
+        <li><a href="#">Left Nav Button</a></li>
+      </ul> -->
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class=<%= @active == 'Index' ? 'active' : '' %>><a href="/">Home</a></li>
+        <li class=<%= @active == 'Services' ? 'active' : '' %>><a href="/services">Services</a></li>
+        <li class=<%= @active == 'About' ? 'active' : '' %>><a href="/about">About</a></li>
+      </ul>
+    </section>
+  </nav>
+</div>
